@@ -28,12 +28,13 @@ const StyledLi = styled.li`
 `;
 
 const StyledH3 = styled.h3`
-  font-size: 14px;
+  font-style: italic;
+  font-size: 16px;
   padding-bottom: 5px;
 `;
 
 const StyledP = styled.p`
-  font-size: 12px;
+  font-size: 13px;
 `;
 
 const Post = ({ post, index }) => {
@@ -43,7 +44,7 @@ const Post = ({ post, index }) => {
     dispatch(
       setValue({
         value: `${name} matching ID ${id} changed by ${delta.toFixed(2)} ms`,
-      })
+      }),
     );
   };
 
