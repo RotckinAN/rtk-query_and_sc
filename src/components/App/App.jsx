@@ -34,7 +34,6 @@ function App() {
               return <Post key={index} post={post} index={index} />;
             })}
       </StyledUl>
-
       <p>{metricMessage}</p>
     </StyledDiv>
   );
